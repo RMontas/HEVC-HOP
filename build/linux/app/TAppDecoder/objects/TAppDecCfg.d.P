@@ -1,0 +1,11 @@
+objects/TAppDecCfg.d.o: \
+ /home/rmonteiro/PhD/hm-15.0-ss-st-IEEE-JSTSP-LF-SPECIAL-ISSUE/build/linux/app/TAppDecoder/../../../../source/App/TAppDecoder/TAppDecCfg.cpp \
+ /home/rmonteiro/PhD/hm-15.0-ss-st-IEEE-JSTSP-LF-SPECIAL-ISSUE/build/linux/app/TAppDecoder/../../../../source/App/TAppDecoder/TAppDecCfg.h \
+ /home/rmonteiro/PhD/hm-15.0-ss-st-IEEE-JSTSP-LF-SPECIAL-ISSUE/build/linux/app/TAppDecoder/../../../../source/Lib/TLibCommon/CommonDef.h \
+ /home/rmonteiro/PhD/hm-15.0-ss-st-IEEE-JSTSP-LF-SPECIAL-ISSUE/build/linux/app/TAppDecoder/../../../../source/Lib/TLibCommon/TypeDef.h \
+ /home/rmonteiro/PhD/hm-15.0-ss-st-IEEE-JSTSP-LF-SPECIAL-ISSUE/build/linux/app/TAppDecoder/../../../../source/Lib/TAppCommon/program_options_lite.h
+ /home/rmonteiro/PhD/hm-15.0-ss-st-IEEE-JSTSP-LF-SPECIAL-ISSUE/build/linux/app/TAppDecoder/../../../../source/App/TAppDecoder/TAppDecCfg.cpp :
+ /home/rmonteiro/PhD/hm-15.0-ss-st-IEEE-JSTSP-LF-SPECIAL-ISSUE/build/linux/app/TAppDecoder/../../../../source/App/TAppDecoder/TAppDecCfg.h :
+ /home/rmonteiro/PhD/hm-15.0-ss-st-IEEE-JSTSP-LF-SPECIAL-ISSUE/build/linux/app/TAppDecoder/../../../../source/Lib/TLibCommon/CommonDef.h :
+ /home/rmonteiro/PhD/hm-15.0-ss-st-IEEE-JSTSP-LF-SPECIAL-ISSUE/build/linux/app/TAppDecoder/../../../../source/Lib/TLibCommon/TypeDef.h :
+ /home/rmonteiro/PhD/hm-15.0-ss-st-IEEE-JSTSP-LF-SPECIAL-ISSUE/build/linux/app/TAppDecoder/../../../../source/Lib/TAppCommon/program_options_lite.h :

@@ -1,0 +1,23 @@
+﻿Build started 22-05-2015 17:27:22.
+     1>Project "C:\Users\Ricardo\PhD\jctvc-hm\build\vc10\TAppEncoder_vc10.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Ricardo\PhD\jctvc-hm\build\\..\source\Lib\\" /I"C:\Users\Ricardo\PhD\jctvc-hm\build\\..\compat\msvc" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TAppEncoder\\" /Fd"C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TAppEncoder\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\source\App\TAppEncoder\TAppEncTop.cpp ..\..\source\App\TAppEncoder\encmain.cpp
+         encmain.cpp
+         TAppEncTop.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Ricardo\PhD\jctvc-hm\build\\..\bin\vc10\Win32\Debug\TAppEncoder.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Ricardo\PhD\jctvc-hm\build\\..\bin\vc10\Win32\Debug\TAppEncoder.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Ricardo\PhD\jctvc-hm\build\\..\bin\vc10\Win32\Debug\TAppEncoder.lib" /MACHINE:X86 /SAFESEH "C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TAppEncoder\encmain.obj"
+         "C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TAppEncoder\TAppEncCfg.obj"
+         "C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TAppEncoder\TAppEncTop.obj"
+         "C:\Users\Ricardo\PhD\jctvc-hm\build\vc10\Win32\Debug\TAppCommon\TAppCommon.lib"
+         "C:\Users\Ricardo\PhD\jctvc-hm\build\vc10\Win32\Debug\TLibCommon\TLibCommon.lib"
+         "C:\Users\Ricardo\PhD\jctvc-hm\build\vc10\Win32\Debug\TLibEncoder\TLibEncoder.lib"
+         "C:\Users\Ricardo\PhD\jctvc-hm\build\vc10\Win32\Debug\TLibVideoIo\TLibVideoIO.lib"
+         LINK : C:\Users\Ricardo\PhD\jctvc-hm\build\\..\bin\vc10\Win32\Debug\TAppEncoder.exe not found or not built by the last incremental link; performing full link
+     1>encmain.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         TAppEncoder_vc10.vcxproj -> C:\Users\Ricardo\PhD\jctvc-hm\build\\..\bin\vc10\Win32\Debug\TAppEncoder.exe
+     1>Done Building Project "C:\Users\Ricardo\PhD\jctvc-hm\build\vc10\TAppEncoder_vc10.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.71

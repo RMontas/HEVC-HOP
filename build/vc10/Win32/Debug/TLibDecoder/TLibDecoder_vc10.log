@@ -1,0 +1,31 @@
+﻿Build started 22-05-2015 17:27:14.
+     1>Project "C:\Users\Ricardo\PhD\jctvc-hm\build\vc10\TLibDecoder_vc10.vcxproj" on node 4 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Ricardo\PhD\jctvc-hm\build\\..\source\Lib\\" /I"C:\Users\Ricardo\PhD\jctvc-hm\build\\..\compat\msvc" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibDecoder\\" /Fd"C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibDecoder\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\source\Lib\TLibDecoder\TDecCAVLC.cpp ..\..\source\Lib\TLibDecoder\TDecCu.cpp ..\..\source\Lib\TLibDecoder\TDecEntropy.cpp ..\..\source\Lib\TLibDecoder\TDecGop.cpp ..\..\source\Lib\TLibDecoder\TDecSbac.cpp ..\..\source\Lib\TLibDecoder\TDecSlice.cpp ..\..\source\Lib\TLibDecoder\TDecTop.cpp
+         TDecTop.cpp
+         TDecSlice.cpp
+         TDecSbac.cpp
+         TDecGop.cpp
+         TDecEntropy.cpp
+         TDecCu.cpp
+         TDecCAVLC.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibDecoder\TLibDecoder.lib" /NOLOGO "C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibDecoder\AnnexBread.obj"
+         "C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibDecoder\NALread.obj"
+         "C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibDecoder\SEIread.obj"
+         "C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibDecoder\SyntaxElementParser.obj"
+         "C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibDecoder\TDecBinCoderCABAC.obj"
+         "C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibDecoder\TDecCAVLC.obj"
+         "C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibDecoder\TDecCu.obj"
+         "C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibDecoder\TDecEntropy.obj"
+         "C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibDecoder\TDecGop.obj"
+         "C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibDecoder\TDecSbac.obj"
+         "C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibDecoder\TDecSlice.obj"
+         "C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibDecoder\TDecTop.obj"
+         TLibDecoder_vc10.vcxproj -> C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibDecoder\TLibDecoder.lib
+     1>Done Building Project "C:\Users\Ricardo\PhD\jctvc-hm\build\vc10\TLibDecoder_vc10.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.30

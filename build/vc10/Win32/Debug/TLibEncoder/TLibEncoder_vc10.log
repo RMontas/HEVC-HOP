@@ -1,0 +1,37 @@
+﻿Build started 22-05-2015 17:27:14.
+     1>Project "C:\Users\Ricardo\PhD\jctvc-hm\build\vc10\TLibEncoder_vc10.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Ricardo\PhD\jctvc-hm\build\\..\source\Lib\\" /I"C:\Users\Ricardo\PhD\jctvc-hm\build\\..\compat\msvc" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibEncoder\\" /Fd"C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibEncoder\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\source\Lib\TLibEncoder\TEncCu.cpp ..\..\source\Lib\TLibEncoder\TEncGOP.cpp ..\..\source\Lib\TLibEncoder\TEncSbac.cpp ..\..\source\Lib\TLibEncoder\TEncSearch.cpp ..\..\source\Lib\TLibEncoder\TEncSlice.cpp ..\..\source\Lib\TLibEncoder\TEncTop.cpp
+         TEncTop.cpp
+         TEncSlice.cpp
+         TEncSearch.cpp
+         TEncSbac.cpp
+         TEncGOP.cpp
+         TEncCu.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibEncoder\TLibEncoder.lib" /NOLOGO "C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibEncoder\NALwrite.obj"
+         "C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibEncoder\SEIwrite.obj"
+         "C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibEncoder\SyntaxElementWriter.obj"
+         "C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibEncoder\TEncAnalyze.obj"
+         "C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibEncoder\TEncBinCoderCABAC.obj"
+         "C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibEncoder\TEncBinCoderCABACCounter.obj"
+         "C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibEncoder\TEncCavlc.obj"
+         "C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibEncoder\TEncCu.obj"
+         "C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibEncoder\TEncEntropy.obj"
+         "C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibEncoder\TEncGOP.obj"
+         "C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibEncoder\TEncPic.obj"
+         "C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibEncoder\TEncPreanalyzer.obj"
+         "C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibEncoder\TEncRateCtrl.obj"
+         "C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibEncoder\TEncSampleAdaptiveOffset.obj"
+         "C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibEncoder\TEncSbac.obj"
+         "C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibEncoder\TEncSearch.obj"
+         "C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibEncoder\TEncSlice.obj"
+         "C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibEncoder\TEncTop.obj"
+         "C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibEncoder\WeightPredAnalysis.obj"
+         TLibEncoder_vc10.vcxproj -> C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibEncoder\TLibEncoder.lib
+     1>Done Building Project "C:\Users\Ricardo\PhD\jctvc-hm\build\vc10\TLibEncoder_vc10.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.39

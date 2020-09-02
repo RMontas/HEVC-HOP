@@ -1,0 +1,272 @@
+﻿Build started 19-05-2015 17:31:24.
+     1>Project "C:\Users\Ricardo\PhD\jctvc-hm\build\vc10\TLibDecoderAnalyser_vc10.vcxproj" on node 4 (Build target(s)).
+     1>ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\Ricardo\PhD\jctvc-hm\build\\..\source\Lib\\" /I"C:\Users\Ricardo\PhD\jctvc-hm\build\\..\compat\msvc" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D RExt__DECODER_DEBUG_BIT_STATISTICS=1 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibDecoderAnalyser\\" /Fd"C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibDecoderAnalyser\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\source\Lib\TLibDecoder\AnnexBread.cpp ..\..\source\Lib\TLibDecoder\NALread.cpp ..\..\source\Lib\TLibDecoder\SEIread.cpp ..\..\source\Lib\TLibDecoder\SyntaxElementParser.cpp ..\..\source\Lib\TLibDecoder\TDecBinCoderCABAC.cpp ..\..\source\Lib\TLibDecoder\TDecCAVLC.cpp ..\..\source\Lib\TLibDecoder\TDecCu.cpp ..\..\source\Lib\TLibDecoder\TDecEntropy.cpp ..\..\source\Lib\TLibDecoder\TDecGop.cpp ..\..\source\Lib\TLibDecoder\TDecSbac.cpp ..\..\source\Lib\TLibDecoder\TDecSlice.cpp ..\..\source\Lib\TLibDecoder\TDecTop.cpp
+         TDecTop.cpp
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\typedef.h(331): error C2011: 'SliceType' : 'enum' type redefinition
+                 c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\typedef.h(284) : see declaration of 'SliceType'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\commondef.h(113): error C2059: syntax error : '<<'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\commondef.h(194): error C2059: syntax error : '=='
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\commondef.h(205): error C2059: syntax error : '=='
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\commondef.h(317): error C2059: syntax error : '<<'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\commondef.h(337): error C2011: 'NalUnitType' : 'enum' type redefinition
+                 c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\typedef.h(643) : see declaration of 'NalUnitType'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\commondef.h(416): error C2059: syntax error : '>>'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\tcomrom.h(130): error C2059: syntax error : '<<'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\tcomrom.h(210): error C2059: syntax error : '=='
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\tcomrom.h(216): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\tcomrom.h(216): error C2447: '{' : missing function header (old-style formal list?)
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\tcomrom.h(221): error C2059: syntax error : '>>'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\contexttables.h(172): warning C4091: 'static ' : ignored on left of 'const unsigned char' when no variable is declared
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\contexttables.h(172): error C2143: syntax error : missing ';' before '<<'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\contexttables.h(172): error C2059: syntax error : '<<'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\contexttables.h(174): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\contexttables.h(174): error C2447: '{' : missing function header (old-style formal list?)
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\tcomslice.h(2016): fatal error C1070: mismatched #if/#endif pair in file 'c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\tcomslice.h'
+         TDecSlice.cpp
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\typedef.h(331): error C2011: 'SliceType' : 'enum' type redefinition
+                 c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\typedef.h(284) : see declaration of 'SliceType'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\commondef.h(113): error C2059: syntax error : '<<'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\commondef.h(194): error C2059: syntax error : '=='
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\commondef.h(205): error C2059: syntax error : '=='
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\commondef.h(317): error C2059: syntax error : '<<'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\commondef.h(337): error C2011: 'NalUnitType' : 'enum' type redefinition
+                 c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\typedef.h(643) : see declaration of 'NalUnitType'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\commondef.h(416): error C2059: syntax error : '>>'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\tcomrom.h(130): error C2059: syntax error : '<<'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\tcomrom.h(210): error C2059: syntax error : '=='
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\tcomrom.h(216): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\tcomrom.h(216): error C2447: '{' : missing function header (old-style formal list?)
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\tcomrom.h(221): error C2059: syntax error : '>>'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\contexttables.h(172): warning C4091: 'static ' : ignored on left of 'const unsigned char' when no variable is declared
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\contexttables.h(172): error C2143: syntax error : missing ';' before '<<'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\contexttables.h(172): error C2059: syntax error : '<<'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\contexttables.h(174): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\contexttables.h(174): error C2447: '{' : missing function header (old-style formal list?)
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\tcomslice.h(2016): fatal error C1070: mismatched #if/#endif pair in file 'c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\tcomslice.h'
+         TDecSbac.cpp
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\typedef.h(331): error C2011: 'SliceType' : 'enum' type redefinition
+                 c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\typedef.h(284) : see declaration of 'SliceType'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\commondef.h(113): error C2059: syntax error : '<<'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\commondef.h(194): error C2059: syntax error : '=='
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\commondef.h(205): error C2059: syntax error : '=='
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\commondef.h(317): error C2059: syntax error : '<<'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\commondef.h(337): error C2011: 'NalUnitType' : 'enum' type redefinition
+                 c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\typedef.h(643) : see declaration of 'NalUnitType'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\commondef.h(416): error C2059: syntax error : '>>'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\tcomrom.h(130): error C2059: syntax error : '<<'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\tcomrom.h(210): error C2059: syntax error : '=='
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\tcomrom.h(216): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\tcomrom.h(216): error C2447: '{' : missing function header (old-style formal list?)
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\tcomrom.h(221): error C2059: syntax error : '>>'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\contexttables.h(172): warning C4091: 'static ' : ignored on left of 'const unsigned char' when no variable is declared
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\contexttables.h(172): error C2143: syntax error : missing ';' before '<<'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\contexttables.h(172): error C2059: syntax error : '<<'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\contexttables.h(174): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\contexttables.h(174): error C2447: '{' : missing function header (old-style formal list?)
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\tcomslice.h(2016): fatal error C1070: mismatched #if/#endif pair in file 'c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\tcomslice.h'
+         TDecGop.cpp
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\typedef.h(331): error C2011: 'SliceType' : 'enum' type redefinition
+                 c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\typedef.h(284) : see declaration of 'SliceType'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\commondef.h(113): error C2059: syntax error : '<<'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\commondef.h(194): error C2059: syntax error : '=='
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\commondef.h(205): error C2059: syntax error : '=='
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\commondef.h(317): error C2059: syntax error : '<<'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\commondef.h(337): error C2011: 'NalUnitType' : 'enum' type redefinition
+                 c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\typedef.h(643) : see declaration of 'NalUnitType'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\commondef.h(416): error C2059: syntax error : '>>'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\tcomrom.h(130): error C2059: syntax error : '<<'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\tcomrom.h(210): error C2059: syntax error : '=='
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\tcomrom.h(216): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\tcomrom.h(216): error C2447: '{' : missing function header (old-style formal list?)
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\tcomrom.h(221): error C2059: syntax error : '>>'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\contexttables.h(172): warning C4091: 'static ' : ignored on left of 'const unsigned char' when no variable is declared
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\contexttables.h(172): error C2143: syntax error : missing ';' before '<<'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\contexttables.h(172): error C2059: syntax error : '<<'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\contexttables.h(174): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\contexttables.h(174): error C2447: '{' : missing function header (old-style formal list?)
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\tcomslice.h(2016): fatal error C1070: mismatched #if/#endif pair in file 'c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\tcomslice.h'
+         TDecEntropy.cpp
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\typedef.h(331): error C2011: 'SliceType' : 'enum' type redefinition
+                 c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\typedef.h(284) : see declaration of 'SliceType'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\commondef.h(113): error C2059: syntax error : '<<'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\commondef.h(194): error C2059: syntax error : '=='
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\commondef.h(205): error C2059: syntax error : '=='
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\commondef.h(317): error C2059: syntax error : '<<'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\commondef.h(337): error C2011: 'NalUnitType' : 'enum' type redefinition
+                 c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\typedef.h(643) : see declaration of 'NalUnitType'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\commondef.h(416): error C2059: syntax error : '>>'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\tcomrom.h(130): error C2059: syntax error : '<<'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\tcomrom.h(210): error C2059: syntax error : '=='
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\tcomrom.h(216): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\tcomrom.h(216): error C2447: '{' : missing function header (old-style formal list?)
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\tcomrom.h(221): error C2059: syntax error : '>>'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\contexttables.h(172): warning C4091: 'static ' : ignored on left of 'const unsigned char' when no variable is declared
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\contexttables.h(172): error C2143: syntax error : missing ';' before '<<'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\contexttables.h(172): error C2059: syntax error : '<<'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\contexttables.h(174): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\contexttables.h(174): error C2447: '{' : missing function header (old-style formal list?)
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\tcomslice.h(2016): fatal error C1070: mismatched #if/#endif pair in file 'c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\tcomslice.h'
+         TDecCu.cpp
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\typedef.h(331): error C2011: 'SliceType' : 'enum' type redefinition
+                 c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\typedef.h(284) : see declaration of 'SliceType'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\commondef.h(113): error C2059: syntax error : '<<'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\commondef.h(194): error C2059: syntax error : '=='
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\commondef.h(205): error C2059: syntax error : '=='
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\commondef.h(317): error C2059: syntax error : '<<'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\commondef.h(337): error C2011: 'NalUnitType' : 'enum' type redefinition
+                 c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\typedef.h(643) : see declaration of 'NalUnitType'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\commondef.h(416): error C2059: syntax error : '>>'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\string(14): error C2143: syntax error : missing ';' before '{'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\string(14): error C2447: '{' : missing function header (old-style formal list?)
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\tcomrom.h(130): error C2059: syntax error : '<<'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\tcomrom.h(210): error C2059: syntax error : '=='
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\tcomrom.h(216): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\tcomrom.h(216): error C2447: '{' : missing function header (old-style formal list?)
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\tcomrom.h(221): error C2059: syntax error : '>>'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\contexttables.h(172): warning C4091: 'static ' : ignored on left of 'const unsigned char' when no variable is declared
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\contexttables.h(172): error C2143: syntax error : missing ';' before '<<'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\contexttables.h(172): error C2059: syntax error : '<<'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\contexttables.h(174): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\contexttables.h(174): error C2447: '{' : missing function header (old-style formal list?)
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\tcomslice.h(2016): fatal error C1070: mismatched #if/#endif pair in file 'c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\tcomslice.h'
+         TDecCAVLC.cpp
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\typedef.h(331): error C2011: 'SliceType' : 'enum' type redefinition
+                 c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\typedef.h(284) : see declaration of 'SliceType'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\commondef.h(113): error C2059: syntax error : '<<'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\commondef.h(194): error C2059: syntax error : '=='
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\commondef.h(205): error C2059: syntax error : '=='
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\commondef.h(317): error C2059: syntax error : '<<'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\commondef.h(337): error C2011: 'NalUnitType' : 'enum' type redefinition
+                 c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\typedef.h(643) : see declaration of 'NalUnitType'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\commondef.h(416): error C2059: syntax error : '>>'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\tcomrom.h(130): error C2059: syntax error : '<<'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\tcomrom.h(210): error C2059: syntax error : '=='
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\tcomrom.h(216): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\tcomrom.h(216): error C2447: '{' : missing function header (old-style formal list?)
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\tcomrom.h(221): error C2059: syntax error : '>>'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\contexttables.h(172): warning C4091: 'static ' : ignored on left of 'const unsigned char' when no variable is declared
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\contexttables.h(172): error C2143: syntax error : missing ';' before '<<'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\contexttables.h(172): error C2059: syntax error : '<<'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\contexttables.h(174): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\contexttables.h(174): error C2447: '{' : missing function header (old-style formal list?)
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\tcomslice.h(2016): fatal error C1070: mismatched #if/#endif pair in file 'c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\tcomslice.h'
+         TDecBinCoderCABAC.cpp
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\typedef.h(331): error C2011: 'SliceType' : 'enum' type redefinition
+                 c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\typedef.h(284) : see declaration of 'SliceType'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\commondef.h(113): error C2059: syntax error : '<<'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\commondef.h(194): error C2059: syntax error : '=='
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\commondef.h(205): error C2059: syntax error : '=='
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\commondef.h(317): error C2059: syntax error : '<<'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\commondef.h(337): error C2011: 'NalUnitType' : 'enum' type redefinition
+                 c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\typedef.h(643) : see declaration of 'NalUnitType'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\commondef.h(416): error C2059: syntax error : '>>'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\string(14): error C2143: syntax error : missing ';' before '{'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\string(14): error C2447: '{' : missing function header (old-style formal list?)
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\tcomrom.h(130): error C2059: syntax error : '<<'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\tcomrom.h(210): error C2059: syntax error : '=='
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\tcomrom.h(216): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\tcomrom.h(216): error C2447: '{' : missing function header (old-style formal list?)
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\tcomrom.h(221): error C2059: syntax error : '>>'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\contexttables.h(172): warning C4091: 'static ' : ignored on left of 'const unsigned char' when no variable is declared
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\contexttables.h(172): error C2143: syntax error : missing ';' before '<<'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\contexttables.h(172): error C2059: syntax error : '<<'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\contexttables.h(174): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\contexttables.h(174): error C2447: '{' : missing function header (old-style formal list?)
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibdecoder\tdecbincodercabac.cpp(384): fatal error C1004: unexpected end-of-file found
+         SyntaxElementParser.cpp
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\typedef.h(331): error C2011: 'SliceType' : 'enum' type redefinition
+                 c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\typedef.h(284) : see declaration of 'SliceType'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\commondef.h(113): error C2059: syntax error : '<<'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\commondef.h(194): error C2059: syntax error : '=='
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\commondef.h(205): error C2059: syntax error : '=='
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\commondef.h(317): error C2059: syntax error : '<<'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\commondef.h(337): error C2011: 'NalUnitType' : 'enum' type redefinition
+                 c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\typedef.h(643) : see declaration of 'NalUnitType'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\commondef.h(416): error C2059: syntax error : '>>'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\string(14): error C2143: syntax error : missing ';' before '{'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\string(14): error C2447: '{' : missing function header (old-style formal list?)
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\tcomrom.h(130): error C2059: syntax error : '<<'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\tcomrom.h(210): error C2059: syntax error : '=='
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\tcomrom.h(216): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\tcomrom.h(216): error C2447: '{' : missing function header (old-style formal list?)
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\tcomrom.h(221): error C2059: syntax error : '>>'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\contexttables.h(172): warning C4091: 'static ' : ignored on left of 'const unsigned char' when no variable is declared
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\contexttables.h(172): error C2143: syntax error : missing ';' before '<<'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\contexttables.h(172): error C2059: syntax error : '<<'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\contexttables.h(174): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\contexttables.h(174): error C2447: '{' : missing function header (old-style formal list?)
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibdecoder\syntaxelementparser.cpp(270): fatal error C1004: unexpected end-of-file found
+         SEIread.cpp
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\typedef.h(331): error C2011: 'SliceType' : 'enum' type redefinition
+                 c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\typedef.h(284) : see declaration of 'SliceType'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\commondef.h(113): error C2059: syntax error : '<<'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\commondef.h(194): error C2059: syntax error : '=='
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\commondef.h(205): error C2059: syntax error : '=='
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\commondef.h(317): error C2059: syntax error : '<<'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\commondef.h(337): error C2011: 'NalUnitType' : 'enum' type redefinition
+                 c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\typedef.h(643) : see declaration of 'NalUnitType'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\commondef.h(416): error C2059: syntax error : '>>'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\tcomrom.h(130): error C2059: syntax error : '<<'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\tcomrom.h(210): error C2059: syntax error : '=='
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\tcomrom.h(216): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\tcomrom.h(216): error C2447: '{' : missing function header (old-style formal list?)
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\tcomrom.h(221): error C2059: syntax error : '>>'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\contexttables.h(172): warning C4091: 'static ' : ignored on left of 'const unsigned char' when no variable is declared
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\contexttables.h(172): error C2143: syntax error : missing ';' before '<<'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\contexttables.h(172): error C2059: syntax error : '<<'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\contexttables.h(174): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\contexttables.h(174): error C2447: '{' : missing function header (old-style formal list?)
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\tcomslice.h(2016): fatal error C1070: mismatched #if/#endif pair in file 'c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\tcomslice.h'
+         NALread.cpp
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\typedef.h(331): error C2011: 'SliceType' : 'enum' type redefinition
+                 c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\typedef.h(284) : see declaration of 'SliceType'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\commondef.h(113): error C2059: syntax error : '<<'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\commondef.h(194): error C2059: syntax error : '=='
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\commondef.h(205): error C2059: syntax error : '=='
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\commondef.h(317): error C2059: syntax error : '<<'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\commondef.h(337): error C2011: 'NalUnitType' : 'enum' type redefinition
+                 c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\typedef.h(643) : see declaration of 'NalUnitType'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\commondef.h(416): error C2059: syntax error : '>>'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\contexttables.h(172): warning C4091: 'static ' : ignored on left of 'const unsigned char' when no variable is declared
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\contexttables.h(172): error C2143: syntax error : missing ';' before '<<'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\contexttables.h(172): error C2059: syntax error : '<<'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\contexttables.h(174): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\contexttables.h(174): error C2447: '{' : missing function header (old-style formal list?)
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibdecoder\nalread.cpp(185): fatal error C1004: unexpected end-of-file found
+         AnnexBread.cpp
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\typedef.h(331): error C2011: 'SliceType' : 'enum' type redefinition
+                 c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\typedef.h(284) : see declaration of 'SliceType'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\commondef.h(113): error C2059: syntax error : '<<'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\commondef.h(194): error C2059: syntax error : '=='
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\commondef.h(205): error C2059: syntax error : '=='
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\commondef.h(317): error C2059: syntax error : '<<'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\commondef.h(337): error C2011: 'NalUnitType' : 'enum' type redefinition
+                 c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\typedef.h(643) : see declaration of 'NalUnitType'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\commondef.h(416): error C2059: syntax error : '>>'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibdecoder\annexbread.h(54): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibdecoder\annexbread.h(54): error C2447: '{' : missing function header (old-style formal list?)
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibdecoder\annexbread.h(195): error C2065: 'InputByteStream' : undeclared identifier
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibdecoder\annexbread.h(195): error C2065: 'bs' : undeclared identifier
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibdecoder\annexbread.h(195): error C2065: 'nalUnit' : undeclared identifier
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibdecoder\annexbread.h(195): error C2275: 'std::vector<_Ty>' : illegal use of this type as an expression
+                 with
+                 [
+                     _Ty=UChar
+                 ]
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibdecoder\annexbread.h(195): error C2065: 'stats' : undeclared identifier
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibdecoder\annexbread.h(195): error C2275: 'AnnexBStats' : illegal use of this type as an expression
+                 c:\users\ricardo\phd\jctvc-hm\source\lib\tlibdecoder\annexbread.h(177) : see declaration of 'AnnexBStats'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibdecoder\annexbread.h(195): error C2078: too many initializers
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\contexttables.h(172): warning C4091: 'static ' : ignored on left of 'const unsigned char' when no variable is declared
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\contexttables.h(172): error C2143: syntax error : missing ';' before '<<'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\contexttables.h(172): error C2059: syntax error : '<<'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\contexttables.h(174): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibcommon\contexttables.h(174): error C2447: '{' : missing function header (old-style formal list?)
+     1>c:\users\ricardo\phd\jctvc-hm\source\lib\tlibdecoder\annexbread.cpp(200): fatal error C1004: unexpected end-of-file found
+         Generating Code...
+     1>Done Building Project "C:\Users\Ricardo\PhD\jctvc-hm\build\vc10\TLibDecoderAnalyser_vc10.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:06.08

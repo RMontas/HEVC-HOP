@@ -1,0 +1,10 @@
+﻿Build started 19-05-2015 17:31:29.
+     1>Project "C:\Users\Ricardo\PhD\jctvc-hm\build\vc10\TAppDecoderAnalyser_vc10.vcxproj" on node 4 (Build target(s)).
+     1>Project "C:\Users\Ricardo\PhD\jctvc-hm\build\vc10\TAppDecoderAnalyser_vc10.vcxproj" (1) is building "C:\Users\Ricardo\PhD\jctvc-hm\build\vc10\TLibCommon_vc10.vcxproj" (4) on node 4 (GetTargetPath target(s)).
+     4>C:\Users\Ricardo\PhD\jctvc-hm\build\vc10\TLibCommon_vc10.vcxproj(1,2): error MSB4025: The project file could not be loaded. Name cannot begin with the '<' character, hexadecimal value 0x3C. Line 1, position 2.
+     4>Done Building Project "C:\Users\Ricardo\PhD\jctvc-hm\build\vc10\TLibCommon_vc10.vcxproj" (GetTargetPath target(s)) -- FAILED.
+     1>Done Building Project "C:\Users\Ricardo\PhD\jctvc-hm\build\vc10\TAppDecoderAnalyser_vc10.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.03

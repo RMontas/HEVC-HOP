@@ -1,0 +1,13 @@
+﻿Build started 20-05-2015 11:44:56.
+     1>Project "C:\Users\Ricardo\PhD\jctvc-hm\build\vc10\TLibVideoIO_vc10.vcxproj" on node 5 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Ricardo\PhD\jctvc-hm\build\\..\source\Lib\\" /I"C:\Users\Ricardo\PhD\jctvc-hm\build\\..\compat\msvc" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibVideoIo\\" /Fd"C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibVideoIo\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\source\Lib\TLibVideoIO\TVideoIOYuv.cpp
+         TVideoIOYuv.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibVideoIo\TLibVideoIO.lib" /NOLOGO "C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibVideoIo\TVideoIOYuv.obj"
+         TLibVideoIO_vc10.vcxproj -> C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibVideoIo\TLibVideoIO.lib
+     1>Done Building Project "C:\Users\Ricardo\PhD\jctvc-hm\build\vc10\TLibVideoIO_vc10.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.06

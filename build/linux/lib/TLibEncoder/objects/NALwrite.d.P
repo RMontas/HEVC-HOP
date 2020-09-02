@@ -1,0 +1,17 @@
+objects/NALwrite.d.o: \
+ /home/rmonteiro/PhD/hm-15.0-ss-st-IEEE-JSTSP-LF-SPECIAL-ISSUE/build/linux/lib/TLibEncoder/../../../../source/Lib/TLibEncoder/NALwrite.cpp \
+ /home/rmonteiro/PhD/hm-15.0-ss-st-IEEE-JSTSP-LF-SPECIAL-ISSUE/build/linux/lib/TLibEncoder/../../../../source/Lib/TLibCommon/NAL.h \
+ /home/rmonteiro/PhD/hm-15.0-ss-st-IEEE-JSTSP-LF-SPECIAL-ISSUE/build/linux/lib/TLibEncoder/../../../../source/Lib/TLibCommon/CommonDef.h \
+ /home/rmonteiro/PhD/hm-15.0-ss-st-IEEE-JSTSP-LF-SPECIAL-ISSUE/build/linux/lib/TLibEncoder/../../../../source/Lib/TLibCommon/TypeDef.h \
+ /home/rmonteiro/PhD/hm-15.0-ss-st-IEEE-JSTSP-LF-SPECIAL-ISSUE/build/linux/lib/TLibEncoder/../../../../source/Lib/TLibCommon/TComBitStream.h \
+ /home/rmonteiro/PhD/hm-15.0-ss-st-IEEE-JSTSP-LF-SPECIAL-ISSUE/build/linux/lib/TLibEncoder/../../../../source/Lib/TLibEncoder/NALwrite.h \
+ /home/rmonteiro/PhD/hm-15.0-ss-st-IEEE-JSTSP-LF-SPECIAL-ISSUE/build/linux/lib/TLibEncoder/../../../../source/Lib/TLibCommon/TypeDef.h \
+ /home/rmonteiro/PhD/hm-15.0-ss-st-IEEE-JSTSP-LF-SPECIAL-ISSUE/build/linux/lib/TLibEncoder/../../../../source/Lib/TLibCommon/TComRom.h
+ /home/rmonteiro/PhD/hm-15.0-ss-st-IEEE-JSTSP-LF-SPECIAL-ISSUE/build/linux/lib/TLibEncoder/../../../../source/Lib/TLibEncoder/NALwrite.cpp :
+ /home/rmonteiro/PhD/hm-15.0-ss-st-IEEE-JSTSP-LF-SPECIAL-ISSUE/build/linux/lib/TLibEncoder/../../../../source/Lib/TLibCommon/NAL.h :
+ /home/rmonteiro/PhD/hm-15.0-ss-st-IEEE-JSTSP-LF-SPECIAL-ISSUE/build/linux/lib/TLibEncoder/../../../../source/Lib/TLibCommon/CommonDef.h :
+ /home/rmonteiro/PhD/hm-15.0-ss-st-IEEE-JSTSP-LF-SPECIAL-ISSUE/build/linux/lib/TLibEncoder/../../../../source/Lib/TLibCommon/TypeDef.h :
+ /home/rmonteiro/PhD/hm-15.0-ss-st-IEEE-JSTSP-LF-SPECIAL-ISSUE/build/linux/lib/TLibEncoder/../../../../source/Lib/TLibCommon/TComBitStream.h :
+ /home/rmonteiro/PhD/hm-15.0-ss-st-IEEE-JSTSP-LF-SPECIAL-ISSUE/build/linux/lib/TLibEncoder/../../../../source/Lib/TLibEncoder/NALwrite.h :
+ /home/rmonteiro/PhD/hm-15.0-ss-st-IEEE-JSTSP-LF-SPECIAL-ISSUE/build/linux/lib/TLibEncoder/../../../../source/Lib/TLibCommon/TypeDef.h :
+ /home/rmonteiro/PhD/hm-15.0-ss-st-IEEE-JSTSP-LF-SPECIAL-ISSUE/build/linux/lib/TLibEncoder/../../../../source/Lib/TLibCommon/TComRom.h :

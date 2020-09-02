@@ -1,0 +1,38 @@
+﻿Build started 22-05-2015 17:27:14.
+     1>Project "C:\Users\Ricardo\PhD\jctvc-hm\build\vc10\TLibCommon_vc10.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Ricardo\PhD\jctvc-hm\build\\..\source\Lib\\" /I"C:\Users\Ricardo\PhD\jctvc-hm\build\\..\compat\msvc" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibCommon\\" /Fd"C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibCommon\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\source\Lib\TLibCommon\TComPrediction.cpp ..\..\source\Lib\TLibCommon\TComSlice.cpp
+         TComSlice.cpp
+         TComPrediction.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibCommon\TLibCommon.lib" /NOLOGO "C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibCommon\ContextModel.obj"
+         "C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibCommon\ContextModel3DBuffer.obj"
+         "C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibCommon\libmd5.obj"
+         "C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibCommon\SEI.obj"
+         "C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibCommon\TComBitStream.obj"
+         "C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibCommon\TComCABACTables.obj"
+         "C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibCommon\TComDataCU.obj"
+         "C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibCommon\TComInterpolationFilter.obj"
+         "C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibCommon\TComLoopFilter.obj"
+         "C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibCommon\TComMotionInfo.obj"
+         "C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibCommon\TComPattern.obj"
+         "C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibCommon\TComPic.obj"
+         "C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibCommon\TComPicSym.obj"
+         "C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibCommon\TComPicYuv.obj"
+         "C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibCommon\TComPicYuvMD5.obj"
+         "C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibCommon\TComPrediction.obj"
+         "C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibCommon\TComRdCost.obj"
+         "C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibCommon\TComRdCostWeightPrediction.obj"
+         "C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibCommon\TComRom.obj"
+         "C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibCommon\TComSampleAdaptiveOffset.obj"
+         "C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibCommon\TComSlice.obj"
+         "C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibCommon\TComTrQuant.obj"
+         "C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibCommon\TComWeightPrediction.obj"
+         "C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibCommon\TComYuv.obj"
+         TLibCommon_vc10.vcxproj -> C:\Users\Ricardo\PhD\jctvc-hm\build\\vc10\Win32\Debug\TLibCommon\TLibCommon.lib
+     1>Done Building Project "C:\Users\Ricardo\PhD\jctvc-hm\build\vc10\TLibCommon_vc10.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.50
